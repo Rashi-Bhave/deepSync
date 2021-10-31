@@ -1,0 +1,66 @@
+input {
+  color: #495057;
+  background-color: #fff;
+  border-color: black;
+  outline: 0;
+  box-shadow: none;
+  border: 1px;
+  font-size: 14px;
+  width: 75%;
+  height: 30%;
+  border-width: 1;
+  align-self: center;
+  padding: 10;
+}
+.name-input {
+  color: #495057;
+  background-color: #fff;
+  border-color: black;
+  outline: 0;
+  box-shadow: none;
+  border: 1px;
+  font-size: 14px;
+}
+.pages_pagination{
+    
+    position: relative;
+    /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+    content: '';
+    /* By using an em scale, the arrows will size with the font */
+    display: inline-block;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.12em solid rgba(0, 0, 0, 0.87);
+    border-top: 0.12em solid rgba(0, 0, 0, 0.87);
+}
+.pagination {
+
+  margin-right: 50px;
+  align-self: flex-end;
+  display: flex;
+  list-style:none;
+
+}
+td {
+
+  text-align: center;
+  height: 10px;
+  flex-direction: 'row';
+  border-width: 2px;
+  
+}
+th{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: #C4C4C4;
+   
+}
+tr{
+    font-size: 18px;
+    flex-direction: 'row';
+
+}
+.project{
+    width: 500px;
+    height: 10px;
+}
